@@ -7,7 +7,7 @@ app.get('/', (req, res) => {res.status(200).send('Hello World Bark testing 4'); 
 app.listen(port, ()=> {
     console.log('Listening on port ' + port);
 });
-app.post('/bark', (req, res, next)=> {
+app.post('/', (req, res)=> {
     res.send('hello');
     // var userName = req.body.user_name;
     // var botPayload = {
