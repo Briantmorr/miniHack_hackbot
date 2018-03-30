@@ -8,18 +8,7 @@ app.listen(port, ()=> {
     console.log('Listening on port ' + port);
 });
 app.post('/bark', (req, res, next)=> {
-    res.send({
-        "ok": true,
-        "channel": "C9YPC1LMB",
-        "ts": "1522383631.000070",
-        "message": {
-            "type": "message",
-            "user": "U9YCMQNS0",
-            "text": "Bark",
-            "bot_id": "B9XV6AUC8",
-            "ts": "1522383631.000070"
-        }
-    });
+    res.send('hello');
     // var userName = req.body.user_name;
     // var botPayload = {
     //     text: 'Hello' + username + ', Bark Bark Bark'
@@ -30,3 +19,17 @@ app.post('/bark', (req, res, next)=> {
     //     return res.status(200).end();
     // }
 });
+
+
+// {
+//     "ok": true,
+//     "channel": "C9YPC1LMB",
+//     "ts": "1522383631.000070",
+//     "message": {
+//         "type": "message",
+//         "user": "U9YCMQNS0",
+//         "text": "Bark",
+//         "bot_id": "B9XV6AUC8",
+//         "ts": "1522383631.000070"
+//     }
+// }
