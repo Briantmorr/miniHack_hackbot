@@ -1,0 +1,23 @@
+{
+  "name": "minihack_hackbot",
+  "version": "1.0.0",
+  "description": "slackbot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Briantmorr/miniHack_hackbot.git"
+  },
+  "author": "brian, matt, parker, will",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Briantmorr/miniHack_hackbot/issues"
+  },
+  "homepage": "https://github.com/Briantmorr/miniHack_hackbot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
