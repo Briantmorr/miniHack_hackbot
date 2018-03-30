@@ -8,7 +8,7 @@ app.listen(port, ()=> {
     console.log('Listening on port ' + port);
 });
 app.post('/', (req, res)=> {
-    res.send('hello');
+    res.status(200).send('hello');
     // var userName = req.body.user_name;
     // var botPayload = {
     //     text: 'Hello' + username + ', Bark Bark Bark'
