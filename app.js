@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT || 3089;
 app.use(bodyParser.urlencoded({extended: true}));
-app.get('/', (req, res) => {res.status(200).send('Hello World Bark testing 4'); });
+app.get('/', (req, res) => {res.status(200).send('Hello Matt'); });
 app.listen(port, ()=> {
     console.log('Listening on port ' + port);
 });
@@ -18,3 +18,10 @@ app.post('/hello', (req, res, next)=> {
         return res.status(200).end();
     }
 });
+
+
+
+app.get('/slack', (req, res) => {
+    
+    
+    res.status(200).send('try again'); });
